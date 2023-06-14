@@ -1,0 +1,103 @@
+.container{
+    padding: 1rem;
+}
+.imgItemContainer{
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 20px;
+    
+}
+ h1{
+    text-align: center;
+    padding: 1rem;
+    color: blueviolet;
+    border-bottom: 2px solid;
+}
+.mealIngredient{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* justify-content: center; */
+}
+h4{
+    color: rgb(132, 52, 152);
+}
+
+.ingriedientName{
+    /* border: 2px solid; */
+    width: 30%;
+    height: fit-content;
+    padding: .2rem;
+    text-align: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    
+}
+.ItemVideo{
+    /* border: 2px solid magenta; */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.makingInstruction button{
+    padding:.7rem 3rem;
+    margin-block: 1rem;
+border: 0;
+background-color: antiquewhite;
+}
+.makingInstruction a{
+    text-decoration: none;
+    font-weight: 550;
+}
+.ingriedientName img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: .5rem;
+}
+.backBtn{
+    position: absolute;
+    top: 5vh;
+    right: 0;
+}
+.ingriedientName p{
+    font-weight: 500;
+}
+.ingriedientName:hover p{
+    color: rgb(23, 1, 1);
+}
+
+.mainItemImg{
+    width: 40%;
+}
+
+.mainItemImg img{
+    width: 100%;
+}
+.makingInstruction{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+}
+@media screen  and (max-width:480px) {
+    .imgContainer{
+        flex-direction: column;
+    }
+    .mealIngredient{
+        width: 100%;
+    }
+    .ingriedientName{
+        width: 100%;
+    }
+    .mealItem{
+        width: 45%;
+    }
+}
+
+

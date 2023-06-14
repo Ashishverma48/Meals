@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(to right,rgb(236, 184, 184),rgb(247, 108, 108));
+  
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+
+
+
+.item{
+    /* border: 2px solid red; */
+    width: 20%;
+    /* background-color: rgb(245, 232, 155); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 5px;
+}
+.item img{
+    width: 100%;
+    
+    object-fit: cover;
+   
+
+}
+.category{
+    border: 2px solid red;display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    
+}
+.category select{
+    padding: .6rem 1.6rem ;
+}

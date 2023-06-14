@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(228, 150, 150);
+    color: blueviolet;
+    padding: .8rem 2rem;
+   text-align: center;
+    
+}
+header>h1{
+   justify-content: end;
+}
